@@ -1,5 +1,5 @@
 <?php
-
+// hello
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', ''); //set DB_PASS as 'root' if you're using MAMP
