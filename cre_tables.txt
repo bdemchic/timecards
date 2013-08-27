@@ -1,0 +1,33 @@
+CREATE  TABLE IF NOT EXISTS users (
+id INT NOT NULL AUTO_INCREMENT,
+first_name VARCHAR(45) NULL,
+last_name VARCHAR(45) NULL,
+created_at DATETIME NULL,
+updated_at DATETIME NULL,
+PRIMARY KEY (id));
+
+CREATE  TABLE IF NOT EXISTS timecards (
+id INT NOT NULL AUTO_INCREMENT,
+user_id INT NULL,
+note TEXT NULL,
+clock_in DATETIME NULL,
+clock_out DATETIME NULL,
+PRIMARY KEY (id));
+
+INSERT INTO users(first_name, last_name, created_at) VALUES ('Burt', 'Demchick', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('Adam', 'Weldon', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('
+Andew', 'Garcia', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('Andrews', 'Afful', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('
+Anthony', 'Ma', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('
+Armando', 'Sanchez
+', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('CJ', 'Wheelock', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('Douglas', 'Aelxander', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('Edward', 'Mondragon', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('Heidi', 'Heffelfinger', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('James', 'Yuon', NOW());
+INSERT INTO users(first_name, last_name, created_at) VALUES ('
+Jesse', 'Lin', NOW());

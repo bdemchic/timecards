@@ -1,0 +1,31 @@
+span {
+	color: red;
+}
+
+h3 {
+	float: left;
+	font-size: 40px;
+}
+
+#myTable {
+	clear: both;
+	font-size: 15px;
+}
+
+#link {
+	float: right;
+	margin-top: 40px;
+}
+
+#wrapper {
+	width: 800px;
+}
+
+#name_button {
+	margin-left: 30px;
+}
+
+#step2 {
+	border-top: 1px solid black;
+	width: 800px;
+}
